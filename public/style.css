@@ -1,6 +1,12 @@
 * {box-sizing: border-box}
 
-
+.fa-cloud{
+  padding:5%;
+  text-align: center;
+}
+.fa-cloud:first-child{
+  padding-left: 10%;
+}
 
 
 
