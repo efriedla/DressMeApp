@@ -14,6 +14,10 @@ app.use(methodOverride('_method'));
 app.get("/", function(req, res){
     res.render("home");
 });
+/**Home route*/
+app.get("/closet", function(req, res){
+    res.render("closet");
+});
 
 
 // "error message" 
