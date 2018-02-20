@@ -4,3 +4,8 @@
 <p align="center">
   <img src="./public/image/phoneView.png" width="350"/>
 </p>
+
+## Instalation 
+* git clone git@github.com:efriedla/DressMeApp.git
+* npm install
+* to start node app.js
