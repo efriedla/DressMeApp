@@ -22,6 +22,10 @@ app.get("/closet", function(req, res){
 app.get("/loves", function(req, res){
     res.render("loves");
 });
+/** inventory route*/
+app.get("/inventory", function(req, res){
+    res.render("inventory");
+});
 
 // "error message" 
 app.get("*", function(req, res){
