@@ -14,11 +14,14 @@ app.use(methodOverride('_method'));
 app.get("/", function(req, res){
     res.render("home");
 });
-/**Home route*/
+/** closet route*/
 app.get("/closet", function(req, res){
     res.render("closet");
 });
-
+/** Loves route*/
+app.get("/loves", function(req, res){
+    res.render("loves");
+});
 
 // "error message" 
 app.get("*", function(req, res){
