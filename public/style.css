@@ -31,5 +31,10 @@
   clear: left;
 }
 
+.collection-item .dropdown-button{
+  float: right;
+  margin-top: -10px;
+  
+}
 
 

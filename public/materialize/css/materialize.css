@@ -3025,7 +3025,7 @@ td, th {
   margin: 0.5rem 0 1rem 0;
   border: 1px solid #e0e0e0;
   border-radius: 2px;
-  overflow: hidden;
+  /* overflow: hidden; */
   position: relative;
 }
 
@@ -3048,7 +3048,7 @@ td, th {
   position: absolute;
   width: 42px;
   height: 42px;
-  overflow: hidden;
+  /* overflow: hidden; */
   left: 15px;
   display: inline-block;
   vertical-align: middle;
@@ -5443,7 +5443,7 @@ button.btn-floating {
   overflow-y: auto;
   opacity: 0;
   position: absolute;
-  z-index: 999;
+  z-index: 9990;
   will-change: width, height;
 }
 
